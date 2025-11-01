@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fabián Sayas — Portafolio</title>
+  <meta name="description" content="Portafolio profesional de Fabián Sayas: proyectos, experiencia y contacto. Ciberseguridad & Ingeniería en Sistemas.">
+  <meta name="generator" content="handcrafted">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'self' https://formspree.io; frame-ancestors 'none'; upgrade-insecure-requests; connect-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta name="referrer" content="no-referrer-when-downgrade">
+  <link rel="canonical" href="https://example.com/">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Fabián Sayas — Portafolio">
+  <meta property="og:description" content="Proyectos, experiencia y contacto. Ciberseguridad & Ingeniería en Sistemas.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com/">
+  <meta property="og:image" content="assets/img/og-image.png">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/main.css">
+  <script>/* Evitar FOUC simple sin frameworks */ document.documentElement.classList.add('js');</script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Fabián Sayas",
+    "url": "https://example.com/",
+    "sameAs": [
+      "https://github.com/NaibafS",
+      "www.linkedin.com/in/fabian-sayas",
+      "https://tryhackme.com/p/fabiansallas"
+    ],
+    "jobTitle": "Ciberseguridad · Ingeniería en Sistemas"
+  }
+  </script>
+  <style>
+    /* Critical CSS mínimo para cargar más rápido */
+    :root {
+      --bg: #0b0f14;
+      --bg-soft: #0f141b;
+      --text: #e7edf4;
+      --muted: #9fb2c4;
+      --brand: #22c55e;
+      --brand-2: #60a5fa;
+      --card: #101720;
+      --border: #1f2a36;
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    a { color: var(--brand-2); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .container { width: min(1100px, 92%); margin: 0 auto; }
+    header.site {
+      position: sticky; top: 0; z-index: 10;
+      background: rgba(11,15,20,.85); backdrop-filter: blur(6px);
+      border-bottom: 1px solid var(--border);
+    }
+    nav { display:flex; align-items:center; justify-content:space-between; padding: .8rem 0; }
+    nav .brand { display:flex; align-items:center; gap:.6rem; font-weight:700; }
+    nav .brand svg { width:28px;height:28px; }
+    nav ul { list-style:none; display:flex; gap:1rem; padding:0; margin:0; }
+    nav a.btn {
+      background: linear-gradient(135deg, var(--brand), var(--brand-2));
+      color:#0b0f14; font-weight:700; padding:.55rem .9rem; border-radius:999px; box-shadow: var(--shadow);
+    }
+    .skip-link { position:absolute; left:-9999px; top:auto; width:1px; height:1px; overflow:hidden; }
+    .skip-link:focus { left: 0; top: 0; width:auto; height:auto; background:#000; color:#fff; padding:.5rem; z-index:999; }
+    .hero { padding: 4rem 0 3rem; display:grid; grid-template-columns: 1.2fr .8fr; gap:2rem; align-items:center; }
+    .badge { display:inline-block; font-size:.85rem; color:var(--muted); background:#0f1720; border:1px solid var(--border); padding:.25rem .6rem; border-radius:999px; }
+    h1 { font-size: clamp(2rem, 4vw, 3rem); line-height:1.1; margin:.2rem 0 1rem; }
+    .lead { font-size: clamp(1rem, 1.7vw, 1.25rem); color: var(--muted); }
+    .cta { display:flex; gap:.8rem; margin-top:1.2rem; flex-wrap:wrap; }
+    .btn-outline { border:1px solid var(--border); padding:.55rem .9rem; border-radius:10px; }
+    .portrait { justify-self:end; background: radial-gradient(120px 140px at 40% 40%, rgba(96,165,250,.25), transparent 70%); }
+    .portrait img { width:200px; height:200px; border-radius:50%; border:1px solid var(--border); }
+    section { padding: 2.5rem 0; }
+    .section-title { display:flex; align-items:center; gap:.6rem; color:var(--muted); font-weight:600; text-transform:uppercase; letter-spacing:.08em; }
+    .grid { display:grid; gap:1.1rem; }
+    .projects { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+    .card {
+      background: var(--card);
+      border:1px solid var(--border);
+      border-radius: 16px;
+      padding: 1rem;
+      box-shadow: var(--shadow);
+      display:flex; flex-direction:column; gap:.6rem;
+    }
+    .card h3 { margin:.2rem 0; font-size:1.15rem; }
+    .tags { display:flex; flex-wrap:wrap; gap:.4rem; }
+    .tag { font-size:.8rem; border:1px solid var(--border); color:var(--muted); border-radius:999px; padding:.2rem .5rem; }
+    .about { display:grid; grid-template-columns: 1.1fr .9fr; gap:1.5rem; }
+    .list-plain { padding-left:1rem; }
+    .list-plain li { margin:.35rem 0; }
+    footer { padding:2rem 0; border-top:1px solid var(--border); color:var(--muted); font-size:.95rem; }
+    @media (max-width: 860px) {
+      .hero { grid-template-columns: 1fr; }
+      .about { grid-template-columns: 1fr; }
+      .portrait { justify-self:start; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; transition: none !important; scroll-behavior: auto; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site">
+    <div class="container">
+      <nav aria-label="Principal">
+        <div class="brand" aria-label="Identidad del sitio">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 2a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2Zm1 15h-2v-2h2Zm0-4h-2V7h2Z"/></svg>
+          <span>Fabián Sayas</span>
+        </div>
+        <ul role="list">
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a class="btn" href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido" class="container">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div>
+        <span class="badge">Ciberseguridad · Ingeniería en Sistemas</span>
+        <h1 id="hero-title">Construyo soluciones seguras y eficientes.</h1>
+        <p class="lead">Portafolio orientado a roles técnicos. Casos con enfoque en proceso, tecnología y resultados.</p>
+        <div class="cta">
+          <a class="btn-outline" href="#proyectos">Ver proyectos</a>
+          <a class="btn-outline" href="CVFabianCyberseguridad.pdf" download rel="noopener">Descargar CV (PDF)</a>
+        </div>
+      </div>
+      <div class="portrait" aria-hidden="true">
+        <img src="./foto perfil.JPG" alt="">
+      </div>
+    </section>
+
+    <section id="proyectos" aria-labelledby="proyectos-title">
+      <h2 class="section-title" id="proyectos-title">Proyectos destacados</h2>
+      <div class="grid projects">
+        <!-- Proyecto ejemplo 1 -->
+        <article class="card">
+          <h3>Hardening de servidor Linux (caso real redactado)</h3>
+          <p>Baseline CIS, bloqueo de puertos, fail2ban, rotación de claves SSH y auditoría con Lynis. Resultado: reducción del área de ataque y compliance básico.</p>
+          <div class="tags">
+            <span class="tag">Linux</span><span class="tag">Shell</span><span class="tag">CIS Benchmarks</span><span class="tag">Lynis</span>
+          </div>
+          <p>
+            <a href="#" aria-label="Repositorio (enlace de ejemplo)">Repositorio</a> ·
+            <a href="#" aria-label="Documento del caso (enlace de ejemplo)">Case study</a>
+          </p>
+        </article>
+
+        <!-- Proyecto ejemplo 2 -->
+        <article class="card">
+          <h3>Scanner de puertos con reporting</h3>
+          <p>Wrapper de Nmap con perfiles predefinidos, exportación en JSON/HTML y checklist de verificación.</p>
+          <div class="tags">
+            <span class="tag">Python</span><span class="tag">Nmap</span><span class="tag">Seguridad</span>
+          </div>
+          <p>
+            <a href="#" aria-label="Repositorio (enlace de ejemplo)">Repositorio</a> ·
+            <a href="#" aria-label="Demo (enlace de ejemplo)">Demo</a>
+          </p>
+        </article>
+
+        <!-- Proyecto ejemplo 3 -->
+        <article class="card">
+          <h3>CRUD web seguro (demo)</h3>
+          <p>Autenticación con hash Argon2, autorización por roles, validación de entrada, uso de consultas preparadas y políticas CSP estrictas.</p>
+          <div class="tags">
+            <span class="tag">Python</span><span class="tag">Flask</span><span class="tag">MySQL</span><span class="tag">Argon2</span>
+          </div>
+          <p>
+            <a href="#" aria-label="Repositorio (enlace de ejemplo)">Repositorio</a> ·
+            <a href="#" aria-label="Demo (enlace de ejemplo)">Demo</a>
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="about" aria-labelledby="about-title">
+      <div>
+        <h2 class="section-title" id="about-title">Sobre mí</h2>
+        <p>Soy profesional orientado a ciberseguridad y desarrollo. En mis proyectos priorizo <strong>defensa en profundidad, automatización</strong> y <strong>calidad de código</strong>.</p>
+        <ul class="list-plain">
+          <li>⚙️ <strong>Stack</strong>: Python, Bash, HTML/CSS/JS, SQL, Git.</li>
+          <li>🛡️ <strong>Seguridad</strong>: OWASP Top 10, hardening Linux, autenticación segura, validación/escape de datos, CSP, backups.</li>
+          <li>🌐 <strong>Infra</strong>: despliegues en GitHub Pages / Netlify / Vercel.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Habilidades</h3>
+        <div class="tags" aria-label="Listado de habilidades técnicas">
+          <span class="tag">Redes</span><span class="tag">Pentesting básico</span><span class="tag">Blue Team</span>
+          <span class="tag">Python</span><span class="tag">MySQL</span><span class="tag">Git/GitHub</span><span class="tag">Linux</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" aria-labelledby="contacto-title">
+      <h2 class="section-title" id="contacto-title">Contacto</h2>
+      <div class="card">
+        <p>¿tenés alguna colsulta? Escribime:</p>
+        <p>
+          <a href="fabiansallas@gmail.com">tuemail@ejemplo.com</a>
+        </p>
+        <p>Perfiles:</p>
+        <ul class="list-plain">
+          <li><a href="https://github.com/NaibafS" rel="me noopener">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/fabian-sayas" rel="me noopener">LinkedIn</a></li>
+          <li><a href="https://tryhackme.com/p/fabiansallas" rel="me noopener">TryHackMe</a></li>
+          <li><!-- Añadí tu enlace real de Hack The Box aquí -->
+              <a href="#" rel="me noopener">Hack The Box</a></li>
+        </ul>
+        <!-- Ejemplo de formulario manejado por proveedor externo
+        <form action="https://formspree.io/f/TU_ID" method="POST">
+          <label>Tu email <input type="email" name="email" required autocomplete="email"></label>
+          <label>Mensaje <textarea name="message" required minlength="10" maxlength="2000"></textarea></label>
+          <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none"> <!-- honeypot -->
+          <button type="submit">Enviar</button>
+        </form>
+        
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Fabián Sayas. Todos los derechos reservados.</p>
+      <p>Esta web evita rastreadores y librerías innecesarias. Mantengo dependencias al día y aplico políticas de seguridad (CSP, headers, validación de entrada).</p>
+    </div>
+  </footer>
+</body>
+</html>
